@@ -30,8 +30,8 @@ public class Test extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	String username="root";
-	String password="123456789";
+	String username="username";
+	String password="password";
 	String jdbcUrl="jdbc:mysql://localhost:3306/customer_db";
 	String driver="com.mysql.cj.jdbc.Driver";
 	try {
